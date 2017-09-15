@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd root
+python3 mba-tcl.py $1 120
+cd /
