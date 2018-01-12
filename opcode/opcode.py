@@ -16,7 +16,7 @@ from filetype import *
 
 OPCODE_LIST = join(HOME_DIR, 'opcode_list')
 # MODE: 0: objdump, 1: ida
-MODE = 1 
+MODE = 0
 
 # Compose returned messages (in json format)
 def json_msg_compose(stat, messagetype, message):

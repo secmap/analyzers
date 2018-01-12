@@ -15,7 +15,7 @@ sys.path.append(HOME_DIR)
 from filetype import * 
 
 # mode 0: obj, 1: ida
-MODE = 1
+MODE = 0
 
 REGISTER_OBJ = join(HOME_DIR, 'register_obj')
 REGISTER_IDA = join(HOME_DIR, 'register_ida')
