@@ -36,8 +36,8 @@ else:
     print(json.dumps(result))
     sys.exit(-1)
 
-sec_name_linenum_ord = ['bss', 'data', 'edata', 'idata', 'rdata', 'rsrc', 'text', 'tls', 'reloc']
-sec_name_por_ord = [None] * 15 + ['text', 'data', 'bss', 'rdata', 'edata', 'idata', 'rsrc', 'tls', 'reloc']
+sec_name_linenum_ord = ['.bss', '.data', '.edata', '.idata', '.rdata', '.rsrc', '.text', '.tls', '.reloc']
+sec_name_por_ord = [None] * 15 + ['.text', '.data', '.bss', '.rdata', '.edata', '.idata', '.rsrc', '.tls', '.reloc']
 
 features = [0] * 24
 num_know_sec = 0
